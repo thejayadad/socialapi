@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+main article {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 15px 0;
+    border-bottom: 1px solid #222;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+
+
+}
+.title {
+    text-align: center;
+    border-bottom: 1px solid #222;
+    padding: 10px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    font-size: 10px;
+}
+div p, h2 {
+    font-size: 15px;
+}
+
+main article h3 {
+    align-self: center;
+
+}
